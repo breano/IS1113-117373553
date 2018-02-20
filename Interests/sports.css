@@ -1,0 +1,50 @@
+#section1{
+    background-color:DarkOrchid;
+
+}
+#banner{
+    width:100;
+    color:black;
+    border: double;
+    text-align:center;
+    background-color: rgb(218, 0, 238);
+}
+
+#section2{
+    background-color: MediumVioletRed;
+    text-align: center;
+    font-size: 22pt;
+}
+
+#section3{
+    background-color: rgb(244, 157, 65);
+    
+}
+
+.section{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    
+}
+
+.section:hover{
+    border: 1px solid #777;
+}
+
+.section p{
+    text-align: center;
+    font-size: 13pt;
+}
+.section img{
+    width: 40%;
+    height: 40%;
+    float: right;
+
+}
+.section h1{
+    color:black;
+}
