@@ -1,7 +1,7 @@
 
  body {
-    background-image: url("https://hdwallsource.com/img/2014/5/orange-sunset-30006-30725-hd-wallpapers.jpg");
-    height: 100%;
+    background-image: url("http://cdn.wallpapersafari.com/72/9/je2UAn.jpg");
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-    color: Black;
+    color: White;
 }
 
 
@@ -23,7 +23,7 @@ ul{
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color: #666;
+    background-color: #555;
 }
 
 
@@ -35,7 +35,7 @@ li a{
     display: block;
     color:white;
     text-align:center;
-    padding: 16px 18px;
+    padding: 10px 59px;
     text-decoration: none;
 }
 
@@ -47,42 +47,40 @@ li a:hover {
     background-color: Green;
 }
 
+
+
 .button {
-  border-radius: 2px;
-  background-color: Blue;
-  border: none;
-  color: Black;
-  text-align: center;
-  font-size: 28px;
-  padding: 3px;
-  width: 300px;
-  transition: all 0.8s;
-  cursor: pointer;
-  margin-left: 200px;
-  
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.8s;
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
 }
 
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -40px;
-  transition: 0.8s;
-}
-
-.button:hover span {
-  padding-right: 20px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }

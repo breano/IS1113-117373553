@@ -1,0 +1,18 @@
+
+
+#section1{
+    background:url("http://globalmedicalco.com/photos/globalmedicalco/23/113139.jpg");
+}
+
+#section2{
+    background:url("https://t-ec.bstatic.com/images/hotel/max1024x768/617/61702659.jpg");
+}
+
+#section3{
+    background:url("https://i.ytimg.com/vi/5k_1ATQ56Ic/maxresdefault.jpg");
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
