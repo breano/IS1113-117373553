@@ -1,0 +1,17 @@
+
+#section1{
+    background:url("https://i.imgur.com/7WIqhm7.jpg");
+}
+
+#section2{
+    background:url("https://a.travel-assets.com/findyours-php/viewfinder/images/res60/76000/76769-Old-Harbor.jpg");
+}
+
+#section3{
+    background:url("http://d3ne5s9fv9p81l.cloudfront.net/77/b9/edd/f1c/f665bbedc0dc7b10542b4c.jpg");
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
