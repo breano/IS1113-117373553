@@ -84,16 +84,16 @@
 	        
 	            <form action="../Ebus/ebus3.php" method="POST">
 	                    <label for="Name">Full Name: </label><br/>
-	                    <input type="text" name="firstname" id="user_name" maxlength="20" placeholder="First.." class="name">
-	                    <input type="text" name="lastname"id="last_name" maxlength=20 placeholder="Last.." class="name">
+	                    <input type="text" name="firstname" id="user_name" maxlength="20" class="name">
+	                    <input type="text" name="lastname"id="last_name" maxlength=20 class="name">
 	                    <br/><br/>
 	                    <label for="email">Email:</label>
 	                    <br/>
-	                    <input type="text" name="email" id="user_Email" maxlength="30" placeholder="Your Email..">
+	                    <input type="text" name="email" id="user_Email" maxlength="30" >
 	                    <br/><br/>
-	                    <label for="user_pin" placeholder="Your PIN..">PIN:</label>
+	                    <label for="user_pin" >PIN:</label>
 	                    <br/>
-	                    <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4" placeholder="Your Password..">
+	                    <input type="password" id="user_pin"  maxlength="4" >
 	                <a href="../Ebus/ebus3.php">
 	                    <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
 	                </a>
