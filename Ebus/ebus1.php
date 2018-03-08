@@ -5,19 +5,9 @@
 	        <!--jQuery-->
 	        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	        <script type="text/javascript" src="cost_calc.js"></script>        
-	        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+	        <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
 	        <style>
-	            article {
-	                clear: both;
-	                overflow: auto;
-	                width: 100%;
-	                }
-	                
-	            form{
-	                clear:both;
-	                overflow:auto;
-	                width:100%;
-	            }
+	         
 	            
 	            
 	            .Calculate{
@@ -32,7 +22,6 @@
 	                margin: 4px 2px;
 	                -webkit-transition-duration: 0.5s; /* Safari */
 	                transition-duration: 0.8s;
-	                cursor: pointer;
 	                clear: left;
 	            }   
 	            
@@ -76,14 +65,14 @@
 	                <form method = "POST" action = "../Ebus/ebus2.php">
 	                    <label for="salesforce">
 	                        <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
-	                        salesforce @ $100
+	                        salesforce for $100
 	                    </label>
 	                    
 	                    <br/>
 	                    
 	                    <label for="Cloud9">
 	                        <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()">
-	                        Cloud 9 @ $200
+	                        Cloud 9 for $200
 	                    </label>
 	                    
 	                    
@@ -91,12 +80,12 @@
 	                                
 	                    <label for="aws">
 	                        <input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-	                        AWS @ $300
+	                        AWS for $300
 	                    </label>
 	                    <br/>
 	                    <label for="Gmail">
 	                        <input type = "radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
-	                        Gmail @ $400
+	                        Gmail for $400
 	                        
 	                        
 	                    </label>
@@ -106,7 +95,7 @@
 	                    <label for="subtotal">
 	                        Sub Total: 
 	                        <br/>
-	                            <input type="text" id="subtotal" value="0.00" class="inline" readonly/>
+	                            <input type="text" id="subtotal" class="inline" readonly/>
 	                    </label>
 	                    
 	                    <br/><br/>
@@ -114,20 +103,20 @@
 	                    <label for="discount">
 	                        Discount:
 	                        <br/>
-	                        <input type="text" id="discount" name="total" value="0.00" class="inline" readonly/>
+	                        <input type="text" id="discount" name="total" class="inline" readonly/>
 	                    </label>
 	                    <br/><br/>
 	                    <label for="vat">
 	                        VAT:
 	                        <br/>
-	                        <input type="text" id="vat" name="vat" value="0.00" class="inline" readonly/>
+	                        <input type="text" id="vat" name="vat" class="inline" readonly/>
 	                    </label>
 	                    <br/><br/>
 	                    
 	                    <label for="Total">
 	                    Total:
 	                    <br/>
-	                        <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
+	                        <input type="text" id="total" name="total" class="inline" readonly/>
 	                    </label>
 	                    <br/>
 	                    <a href="../Ebus/ebus2.php">
