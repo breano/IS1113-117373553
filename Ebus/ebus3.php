@@ -48,6 +48,8 @@
 	            echo "Your total is: $" . $_SESSION["total"] . ".";
 	            ?>
 	            
+	            
+	            
 	        </div> 
 	        <br/><br/><br/><br/>
 

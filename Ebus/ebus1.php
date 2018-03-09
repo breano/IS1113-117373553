@@ -61,6 +61,9 @@
 	            <div>
 	                <h4>Select a Product</h4>
 	                <br/>
+	                <p>These are the range of products available for sale. It is a wide variety of online services including cloud9, aws, Gmail and Salesforce. All of which you can benefit greatly from!</p>
+	                <br/>
+	                
 	                <article>
 	                <form method = "POST" action = "../Ebus/ebus2.php">
 	                    <label for="salesforce">
